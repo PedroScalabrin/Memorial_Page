@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 75%;
+    justify-content: left;
+    margin: auto;
+    color: #948d8d;
+}
+#foto {
+    background-image: url('ElonMusk.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+.container h1 {
+    color: white;
+    font-size: 90px;
+    margin-bottom: 1px;
+}
+.botao {
+   margin-top: 30px;
+}
+.botao a {
+    font-size: 13px;
+    color: #948d8d;
+    border: 1px solid #948d8d;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+}
+.frase, .linha_tempo {
+    margin-top: 50px;
+}
+.texto {
+    margin-top: 70px;
+    font-size: 20px;
+}
+.texto h2 {
+    margin-top: 10px;
+}
+.frase {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: auto;
+    border-top: 1px solid #948d8d;
+    margin-bottom: 30px;
+}
+.container h2 {
+    color: black;
+}
+.linha_tempo {
+    margin-top: 20px;
+}
+.copy {
+    background-color: black;
+    height: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 100px;
+    word-wrap: break-word;
+}
+.margin {
+    margin: 0px;
+    width: 100%;
+}
+.botao a:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
